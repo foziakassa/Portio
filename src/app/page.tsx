@@ -38,7 +38,7 @@ export default function Portfolio() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">A</span>
+              <span className="text-white font-bold text-lg">F</span>
             </div>
             <div>
               <h1 className="text-xl font-bold">Fozia</h1>
