@@ -116,7 +116,7 @@ export default function Portfolio() {
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Aman Baye</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-2">Full Stack Developer & IT Student</p>
           <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, collaborations, or just having a chat about technology.
+            {"I'm always open to discussing new opportunities, collaborations, or just having a chat about technology."}
             Feel free to reach out!
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -232,7 +232,9 @@ export default function Portfolio() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  Currently pursuing a Bachelor's degree in Information Technology with focus on software development,
+                  {
+                    "Currently pursuing a Bachelor's degree in Information Technology with focus on software development,"
+                  }
                   database management, and system analysis.
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -521,7 +523,9 @@ export default function Portfolio() {
             <div className="text-center mb-12">
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Get In Touch</h3>
               <p className="text-gray-600 dark:text-gray-400">
-                I'm always open to discussing new opportunities, collaborations, or just having a chat about technology.
+                {
+                  "I'm always open to discussing new opportunities, collaborations, or just having a chat about technology."
+                }
               </p>
             </div>
 
