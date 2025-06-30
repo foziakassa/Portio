@@ -41,8 +41,8 @@ export default function Portfolio() {
               <span className="text-white font-bold text-lg">A</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold">Aman</h1>
-              <p className="text-sm text-gray-300">IT Student Portfolio</p>
+              <h1 className="text-xl font-bold">Fozia</h1>
+              <p className="text-sm text-gray-300">Software Engineer</p>
             </div>
           </div>
           <div className="flex items-center space-x-2">
@@ -113,8 +113,8 @@ export default function Portfolio() {
           <div className="w-24 h-24 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full mx-auto mb-6 flex items-center justify-center">
             <span className="text-white font-bold text-2xl">A</span>
           </div>
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Aman Baye</h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-2">Full Stack Developer & IT Student</p>
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Fozia Kassa</h2>
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-2">Full Stack Developer & Graphice Designer</p>
           <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
             {"I'm always open to discussing new opportunities, collaborations, or just having a chat about technology."}
             Feel free to reach out!
@@ -146,7 +146,7 @@ export default function Portfolio() {
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900 dark:text-white">Frontend Development</CardTitle>
                 <CardDescription className="text-gray-600 dark:text-gray-400">
-                  React, Vue.js, JavaScript, HTML5, CSS3
+                  Next,js, Angular, JavaScript, HTML5, CSS3
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -169,7 +169,7 @@ export default function Portfolio() {
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900 dark:text-white">Backend Development</CardTitle>
                 <CardDescription className="text-gray-600 dark:text-gray-400">
-                  Node.js, Python, Express, Django
+                  Node.js, Express,
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -190,7 +190,7 @@ export default function Portfolio() {
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900 dark:text-white">Database Management</CardTitle>
                 <CardDescription className="text-gray-600 dark:text-gray-400">
-                  MongoDB, PostgreSQL, MySQL
+                  PostgreSQL, MySQL
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -219,24 +219,19 @@ export default function Portfolio() {
                     <GraduationCap className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1">
-                    <CardTitle className="text-xl">Bachelor of Science in Information Technology</CardTitle>
+                    <CardTitle className="text-xl">Bachelor of Science in Software Engineering</CardTitle>
                     <CardDescription className="text-base font-medium text-emerald-600 dark:text-emerald-400">
-                      Debre Berhan University
+                      Adama Science and Technology University
                     </CardDescription>
                     <div className="flex items-center mt-2 text-sm text-gray-500 dark:text-gray-400">
                       <Calendar className="w-4 h-4 mr-1" />
-                      2021 - 2025 (Expected)
+                      2021 - 2025
                     </div>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  {
-                    "Currently pursuing a Bachelor's degree in Information Technology with focus on software development,"
-                  }
-                  database management, and system analysis.
-                </p>
+
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Software Engineering</Badge>
                   <Badge variant="secondary">Database Systems</Badge>
@@ -245,35 +240,7 @@ export default function Portfolio() {
               </CardContent>
             </Card>
 
-            <Card>
-              <CardHeader>
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center flex-shrink-0">
-                    <GraduationCap className="w-6 h-6 text-white" />
-                  </div>
-                  <div className="flex-1">
-                    <CardTitle className="text-xl">High School Diploma</CardTitle>
-                    <CardDescription className="text-base font-medium text-teal-600 dark:text-teal-400">
-                      Debre Berhan Preparatory School
-                    </CardDescription>
-                    <div className="flex items-center mt-2 text-sm text-gray-500 dark:text-gray-400">
-                      <Calendar className="w-4 h-4 mr-1" />
-                      2017 - 2020
-                    </div>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  Completed high school education with excellent grades in Mathematics and Science subjects.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Mathematics</Badge>
-                  <Badge variant="secondary">Physics</Badge>
-                  <Badge variant="secondary">Computer Science</Badge>
-                </div>
-              </CardContent>
-            </Card>
+
           </div>
         </div>
       </section>
@@ -291,13 +258,13 @@ export default function Portfolio() {
                     <Briefcase className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1">
-                    <CardTitle className="text-xl">Freelance Web Developer</CardTitle>
+                    <CardTitle className="text-xl">Frontend Intern</CardTitle>
                     <CardDescription className="text-base font-medium text-emerald-600 dark:text-emerald-400">
-                      Self-Employed
+                      Kachamale Technologies
                     </CardDescription>
                     <div className="flex items-center mt-2 text-sm text-gray-500 dark:text-gray-400">
                       <Calendar className="w-4 h-4 mr-1" />
-                      2023 - Present
+                      July 2024 - October 2024
                     </div>
                   </div>
                 </div>
@@ -321,9 +288,9 @@ export default function Portfolio() {
                     <Briefcase className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1">
-                    <CardTitle className="text-xl">IT Support Intern</CardTitle>
+                    <CardTitle className="text-xl">Frontend Intern</CardTitle>
                     <CardDescription className="text-base font-medium text-teal-600 dark:text-teal-400">
-                      Local Tech Company
+                      Perago Information Solution
                     </CardDescription>
                     <div className="flex items-center mt-2 text-sm text-gray-500 dark:text-gray-400">
                       <Calendar className="w-4 h-4 mr-1" />
@@ -337,9 +304,9 @@ export default function Portfolio() {
                   Provided technical support and assistance to company employees and clients.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Technical Support</Badge>
-                  <Badge variant="secondary">Windows/Linux</Badge>
-                  <Badge variant="secondary">Network Administration</Badge>
+                  <Badge variant="secondary">Angular</Badge>
+                  {/* <Badge variant="secondary">Windows/Linux</Badge> */}
+                  {/* <Badge variant="secondary">Network Administration</Badge> */}
                 </div>
               </CardContent>
             </Card>
@@ -382,9 +349,9 @@ export default function Portfolio() {
                 <Smartphone className="w-16 h-16 text-white" />
               </div>
               <CardHeader>
-                <CardTitle className="text-lg font-bold text-gray-900 dark:text-white">Unit Converter App</CardTitle>
+                <CardTitle className="text-lg font-bold text-gray-900 dark:text-white">Currency Converter App</CardTitle>
                 <CardDescription className="text-gray-600 dark:text-gray-400">
-                  Mobile app for quick and accurate unit conversions across various categories.
+                  Mobile app for quick and accurate currency conversions across various categories.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -393,20 +360,20 @@ export default function Portfolio() {
                     variant="outline"
                     className="border-emerald-200 text-emerald-700 dark:border-emerald-800 dark:text-emerald-300"
                   >
-                    React Native
+                    Flutter
                   </Badge>
                   <Badge
                     variant="outline"
                     className="border-yellow-200 text-yellow-700 dark:border-yellow-800 dark:text-yellow-300"
                   >
-                    JavaScript
+                    Dart
                   </Badge>
-                  <Badge
+                  {/* <Badge
                     variant="outline"
                     className="border-cyan-200 text-cyan-700 dark:border-cyan-800 dark:text-cyan-300"
                   >
                     CSS
-                  </Badge>
+                  </Badge> */}
                 </div>
                 <div className="flex space-x-2">
                   <Button size="sm" variant="outline" className="flex-1 bg-transparent">
@@ -427,9 +394,10 @@ export default function Portfolio() {
                 <Database className="w-16 h-16 text-white" />
               </div>
               <CardHeader>
-                <CardTitle className="text-lg font-bold text-gray-900 dark:text-white">File Sharing System</CardTitle>
+                <CardTitle className="text-lg font-bold text-gray-900 dark:text-white">LWIE</CardTitle>
                 <CardDescription className="text-gray-600 dark:text-gray-400">
-                  JavaFX + RMI desktop system for sharing and managing files remotely.
+                  {/* JavaFX + RMI desktop system for sharing and managing files remotely. */}
+                  A platform to swape what you have for what you need.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -438,19 +406,19 @@ export default function Portfolio() {
                     variant="outline"
                     className="border-orange-200 text-orange-700 dark:border-orange-800 dark:text-orange-300"
                   >
-                    Java
+                    Next.js
                   </Badge>
                   <Badge
                     variant="outline"
                     className="border-red-200 text-red-700 dark:border-red-800 dark:text-red-300"
                   >
-                    RMI
+                    Node.js
                   </Badge>
                   <Badge
                     variant="outline"
                     className="border-teal-200 text-teal-700 dark:border-teal-800 dark:text-teal-300"
                   >
-                    JavaFX
+                    PostGreSQL
                   </Badge>
                 </div>
                 <div className="flex space-x-2">
