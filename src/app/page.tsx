@@ -226,7 +226,7 @@ export default function Portfolio() {
               {
                 icon: Code,
                 title: "Frontend Development",
-                description: "Next.js, Angular, JavaScript,TypeScript HTML5, CSS3",
+                description: "Next.js, React.js Angular, JavaScript, TypeScript , Tailwind CSS , HTML5, CSS3",
                 progress: 90,
                 color: "emerald",
               },
@@ -351,7 +351,7 @@ export default function Portfolio() {
                 company: "Kachamale Technologies",
                 period: "July 2024 - October 2024",
                 description:
-                  "Developing custom websites and web applications for local businesses and international clients.",
+                  "Developing custom websites and web applications for Local Businesses.",
                 skills: ["React", "Next.js", "Node.js"],
                 color: "emerald",
               },
@@ -359,7 +359,7 @@ export default function Portfolio() {
                 title: "Frontend Intern",
                 company: "Perago Information Solution",
                 period: "Summer 2023",
-                description: "Provided technical support and assistance to company employees and clients.",
+                description: "Developed a hierarchical employee position/role registration system and displayed it in a tree view using Angular.js Framework",
                 skills: ["Angular", "Antd"],
                 color: "teal",
               },
