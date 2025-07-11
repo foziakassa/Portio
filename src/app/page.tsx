@@ -226,7 +226,7 @@ export default function Portfolio() {
               {
                 icon: Code,
                 title: "Frontend Development",
-                description: "Next.js, Angular, JavaScript, HTML5, CSS3",
+                description: "Next.js, Angular, JavaScript,TypeScript HTML5, CSS3",
                 progress: 90,
                 color: "emerald",
               },
