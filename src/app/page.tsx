@@ -133,9 +133,8 @@ export default function Portfolio() {
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
-                className={`text-sm font-medium transition-all duration-300 hover:text-emerald-400 relative ${
-                  activeSection === section ? "text-emerald-400" : "text-gray-300"
-                }`}
+                className={`text-sm font-medium transition-all duration-300 hover:text-emerald-400 relative ${activeSection === section ? "text-emerald-400" : "text-gray-300"
+                  }`}
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
                 {activeSection === section && (
@@ -253,9 +252,8 @@ export default function Portfolio() {
                 <Card
                   key={index}
                   data-card
-                  className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/20 group transform ${
-                    isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
-                  }`}
+                  className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/20 group transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
+                    }`}
                   style={{ transitionDelay: isVisible ? `${index * 100}ms` : "0ms" }}
                 >
                   <CardHeader className="text-center pb-4">
@@ -296,9 +294,8 @@ export default function Portfolio() {
           <div className="max-w-4xl mx-auto">
             <Card
               data-card
-              className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 hover:scale-[1.02] hover:shadow-2xl hover:shadow-emerald-500/20 transform ${
-                animatedCards.has("education-0") ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
-              }`}
+              className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 hover:scale-[1.02] hover:shadow-2xl hover:shadow-emerald-500/20 transform ${animatedCards.has("education-0") ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
+                }`}
             >
               <CardHeader>
                 <div className="flex items-start space-x-6">
@@ -363,7 +360,7 @@ export default function Portfolio() {
                 company: "Perago Information Solution",
                 period: "Summer 2023",
                 description: "Provided technical support and assistance to company employees and clients.",
-                skills: ["Angular"],
+                skills: ["Angular", "Antd"],
                 color: "teal",
               },
             ].map((job, index) => {
@@ -374,9 +371,8 @@ export default function Portfolio() {
                 <Card
                   key={index}
                   data-card
-                  className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 hover:scale-[1.02] hover:shadow-2xl hover:shadow-emerald-500/20 group transform ${
-                    isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
-                  }`}
+                  className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 hover:scale-[1.02] hover:shadow-2xl hover:shadow-emerald-500/20 group transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
+                    }`}
                   style={{ transitionDelay: isVisible ? `${index * 200}ms` : "0ms" }}
                 >
                   <CardHeader>
@@ -434,7 +430,7 @@ export default function Portfolio() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {[
-             
+
               {
                 title: "LWIE",
                 description: "A platform to swap what you have for what you need.",
@@ -449,7 +445,7 @@ export default function Portfolio() {
                 skills: ["React", "Node.js", "MongoDB"],
                 gradient: "from-cyan-500 to-sky-600",
               },
-               {
+              {
                 title: "Currency Converter App",
                 description: "Mobile app for quick and accurate currency conversions across various categories.",
                 icon: Smartphone,
@@ -464,9 +460,8 @@ export default function Portfolio() {
                 <Card
                   key={index}
                   data-card
-                  className={`backdrop-blur-md bg-black/40 border-white/10 hover:bg-black/60 transition-all duration-700 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/10 group overflow-hidden transform ${
-                    isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
-                  }`}
+                  className={`backdrop-blur-md bg-black/40 border-white/10 hover:bg-black/60 transition-all duration-700 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/10 group overflow-hidden transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
+                    }`}
                   style={{ transitionDelay: isVisible ? `${index * 150}ms` : "0ms" }}
                 >
                   <div
@@ -537,9 +532,9 @@ export default function Portfolio() {
               {/* Contact Info */}
               <div className="space-y-6">
                 {[
-                  { icon: Mail, title: "Email", info: "foziakassa@gmail.com", color: "emerald" },
-                  { icon: Phone, title: "Phone", info: "+251 921 634 233", color: "teal" },
-                  { icon: MapPin, title: "Location", info: "Debre Berhan, Ethiopia", color: "cyan" },
+                  { icon: Mail, title: "Email", info: "foziakassa19@gmail.com", color: "emerald" },
+                  { icon: Phone, title: "Phone", info: "+251 927429720", color: "teal" },
+                  { icon: MapPin, title: "Location", info: "Addis Ababa, Ethiopia", color: "cyan" },
                 ].map((contact, index) => {
                   const cardId = `contact-${index}`
                   const isVisible = animatedCards.has(cardId)
@@ -548,9 +543,8 @@ export default function Portfolio() {
                     <Card
                       key={index}
                       data-card
-                      className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/20 p-6 transform ${
-                        isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
-                      }`}
+                      className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/20 p-6 transform ${isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
+                        }`}
                       style={{ transitionDelay: isVisible ? `${index * 100}ms` : "0ms" }}
                     >
                       <div className="flex items-center space-x-6">
@@ -590,9 +584,8 @@ export default function Portfolio() {
               {/* Contact Form */}
               <Card
                 data-card
-                className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 p-8 transform ${
-                  animatedCards.has("contact-3") ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
-                }`}
+                className={`backdrop-blur-md bg-black/60 border-white/10 hover:bg-black/80 transition-all duration-700 p-8 transform ${animatedCards.has("contact-3") ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
+                  }`}
                 style={{ transitionDelay: animatedCards.has("contact-3") ? "300ms" : "0ms" }}
               >
                 <form className="space-y-6">
