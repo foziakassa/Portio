@@ -434,13 +434,7 @@ export default function Portfolio() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {[
-              {
-                title: "Currency Converter App",
-                description: "Mobile app for quick and accurate currency conversions across various categories.",
-                icon: Smartphone,
-                skills: ["Flutter", "Dart"],
-                gradient: "from-emerald-500 to-teal-600",
-              },
+             
               {
                 title: "LWIE",
                 description: "A platform to swap what you have for what you need.",
@@ -454,6 +448,13 @@ export default function Portfolio() {
                 icon: Code,
                 skills: ["React", "Node.js", "MongoDB"],
                 gradient: "from-cyan-500 to-sky-600",
+              },
+               {
+                title: "Currency Converter App",
+                description: "Mobile app for quick and accurate currency conversions across various categories.",
+                icon: Smartphone,
+                skills: ["Flutter", "Dart"],
+                gradient: "from-emerald-500 to-teal-600",
               },
             ].map((project, index) => {
               const cardId = `projects-${index}`
