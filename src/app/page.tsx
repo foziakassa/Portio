@@ -27,6 +27,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import Link from "next/link"
 
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -284,7 +285,7 @@ export default function Portfolio() {
       </section>
 
       {/* Education Section */}
-      <section id="education" className="py-20 relative z-10">
+      {/* <section id="education" className="py-20 relative z-10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h3 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
@@ -334,7 +335,7 @@ export default function Portfolio() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Experience Section */}
       <section id="experience" className="py-20 relative z-10">
@@ -492,7 +493,13 @@ export default function Portfolio() {
                     <CardTitle className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors duration-300">
                       {project.title}
                     </CardTitle>
-                    <CardDescription className="text-gray-300 leading-relaxed">{project.description}</CardDescription>
+                    <CardDescription className="text-gray-300 leading-relaxed">{project.description}
+                      <Link href="/detail">
+                      <span className="text-teal-700 hover:text-teal-800 transition-colors duration-300">
+                       learn more
+                      </span>
+                      </Link>
+                    </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-wrap gap-2 mb-6">
