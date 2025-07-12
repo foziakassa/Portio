@@ -1,6 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from 'next/image'
+import home from '../../public/home.png'
 import {
   Menu,
   X,
@@ -359,7 +361,7 @@ export default function Portfolio() {
                 title: "Frontend Intern",
                 company: "Perago Information Solution",
                 period: "Summer 2023",
-                description: "Developed a hierarchical employee position/role registration system and displayed it in a tree view using Angular.js Framework",
+                description: "Provided technical support and assistance to company employees and clients.",
                 skills: ["Angular", "Antd"],
                 color: "teal",
               },
@@ -437,6 +439,9 @@ export default function Portfolio() {
                 icon: Database,
                 skills: ["Next.js", "Node.js", "PostgreSQL"],
                 gradient: "from-teal-500 to-cyan-600",
+                Link:"https://lwie-platform-xi.vercel.app/",
+                image:home
+
               },
               {
                 title: "Vehicle Tracking System",
@@ -444,6 +449,9 @@ export default function Portfolio() {
                 icon: Code,
                 skills: ["React", "Node.js", "MongoDB"],
                 gradient: "from-cyan-500 to-sky-600",
+                Link:"https://lwie-platform-xi.vercel.app/",
+                image:home
+
               },
               {
                 title: "Currency Converter App",
@@ -451,6 +459,10 @@ export default function Portfolio() {
                 icon: Smartphone,
                 skills: ["Flutter", "Dart"],
                 gradient: "from-emerald-500 to-teal-600",
+                Link:"https://lwie-platform-xi.vercel.app/",
+                image:home
+
+
               },
             ].map((project, index) => {
               const cardId = `projects-${index}`
@@ -464,12 +476,18 @@ export default function Portfolio() {
                     }`}
                   style={{ transitionDelay: isVisible ? `${index * 150}ms` : "0ms" }}
                 >
-                  <div
+                  {/* <div
                     className={`h-48 bg-gradient-to-br ${project.gradient} flex items-center justify-center relative overflow-hidden`}
                   >
                     <project.icon className="w-20 h-20 text-white/90 group-hover:scale-110 transition-transform duration-300" />
                     <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
-                  </div>
+                  </div> */}
+                 <Image
+                 src={project.image}
+                 width={899}
+                 height={900}
+                 alt ="hi"
+                 />
                   <CardHeader>
                     <CardTitle className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors duration-300">
                       {project.title}
@@ -495,7 +513,11 @@ export default function Portfolio() {
                         className="flex-1 border-emerald-400/30 text-emerald-400 hover:bg-emerald-400 hover:text-slate-900 transition-all duration-300 bg-transparent"
                       >
                         <ExternalLink className="w-4 h-4 mr-2" />
-                        Demo
+                      
+               
+                        <a href="https://lwie-platform-xi.vercel.app/" target="_blank" rel="noopener noreferrer">
+                          Demo
+                        </a>
                       </Button>
                       <Button
                         size="sm"
