@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import Image from 'next/image'
 import home from '../../public/home.png'
+import kkkk from '../../public/kkkk.png'
 import {
   Menu,
   X,
@@ -445,13 +446,13 @@ export default function Portfolio() {
 
               },
               {
-                title: "Vehicle Tracking System",
-                description: "Real-time vehicle tracking and management system with GPS integration.",
+                title: "3D Portfolio Templete ",
+                description: "3D dynamic portfolio templete for Developer ",
                 icon: Code,
-                skills: ["React", "Node.js", "MongoDB"],
+                skills: ["Next.js", "Node.js", "PostgreSQL" , "Framer Motion"],
                 gradient: "from-cyan-500 to-sky-600",
-                Link:"https://lwie-platform-xi.vercel.app/",
-                image:home
+                Link:"https://portfolio-navy-eta-dlijjm3ly7.vercel.app/",
+                image:kkkk
 
               },
               {
